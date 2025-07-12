@@ -21,6 +21,10 @@
 
 /* ---navber--- */
 
+.body{
+    background-color: #e5e7fe;
+}
+
 header{
      background-image: url("./Assets/Hero-bg.png");
 }
@@ -128,4 +132,47 @@ width: 860px;
     font-size: 80px;
     font-weight: bolder;
     color: #4E47FF;
+}
+
+/* ---review--- */
+
+.review{
+    margin-top: 140px;
+}
+
+.review-title h2{
+ font-size: 42px;
+ font-weight: 800;
+ text-align: center;
+margin-bottom: 50px;
+}
+
+.review-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.review-star{
+
+    margin-bottom: 15px;
+}
+
+.review-content h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.review-text{
+    background-color: #e5e7fe;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.review-name{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
