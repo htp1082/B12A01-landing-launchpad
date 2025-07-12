@@ -265,6 +265,21 @@ label{
 
 }
 
+.get-btn:hover{
+
+     padding: 15px 80px;
+    background-color: rgb(74, 218, 12);
+    border:none;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight:bolder ;
+    color: rgb(180, 17, 17);
+    transition: all 1s ease-in;
+
+}
+
 /* -- footer--- */
 
 footer{
