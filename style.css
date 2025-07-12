@@ -62,7 +62,7 @@ nav{
 
 main{
     width: 1140px;
-    margin: 140px  auto 0 auto;
+    margin: 120px  auto 0 auto;
 }
 
 /* ---action--- */
@@ -87,4 +87,45 @@ main{
 
 .action-img img{
     border-radius: 30px;
+}
+
+/* ---productive-user--- */
+
+.productive{
+    height: 310px;
+    width: 1140px;
+    background-color: aliceblue;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.productive-container{
+
+width: 860px;
+    
+}
+
+.productive-text h3 {
+
+    font-size: 38px;
+    font-weight:bold ;
+}
+
+.productive-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #000000;
+    
+}
+
+.productive-user-h1{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
 }
