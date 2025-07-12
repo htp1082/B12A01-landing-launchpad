@@ -17,11 +17,21 @@
     border-radius: 10px;
 }
 
+.btn:hover{
+
+    background-color: #47ff8d;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    transition: 2s ease-out;
+    font-size: 20px;
+}
+
 /* --header section */
 
 /* ---navber--- */
 
-.body{
+body{
     background-color: #f5f8ff;
 }
 
@@ -58,7 +68,7 @@ nav{
 
 .banner-text h1{
     font-size: 65px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 37px;
 }
 
@@ -98,7 +108,7 @@ main{
 .productive{
     height: 310px;
     width: 1140px;
-    background-color: aliceblue;
+    background-color: rgb(207, 215, 223);
     margin-top: 140px;
     display: flex;
     align-items: center;
@@ -165,7 +175,7 @@ margin-bottom: 50px;
 }
 
 .review-text{
-    background-color: #e5e7fe;
+    background-color: #e9ebfa;
     padding: 20px;
     border: 1px solid red;
     border-radius: 10px;
@@ -223,17 +233,23 @@ margin-bottom: 50px;
 
 input{
     padding: 15px 80px;
-    background-color: rgb(235, 219, 219);
+    background-color: rgb(255, 255, 255);
     border:none;
     border-radius: 15px;
 }
 
 textarea{
 
-     background-color: rgb(235, 219, 219);
+     background-color: rgb(255, 255, 255);
     border:none;
     border-radius: 15px;
     width: 100%;
+}
+
+label{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .get-btn{
@@ -248,5 +264,44 @@ textarea{
     color: white;
 
 }
+
+/* -- footer--- */
+
+footer{
+    width: 100%;
+    height: 430px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: center;
+    margin-top: 140px;
+}
+.footer-container{
+     text-align: center;
+}
+.footer-container h1{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    
+}
+
+.navber-text{
+    margin-top: 30px;
+}
+
+.navber-text ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.navber-text ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #8987A1;
+}
+
 
 
